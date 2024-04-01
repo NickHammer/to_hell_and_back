@@ -27,7 +27,7 @@ The card game "To Hell and Back" in browser
     - If a player wants a trick but cannot obtain it with a higher card that matches the dealt suit, they can play a trump card, assuming they do not have lower cards of the dealt suit.
 
         Ex: Trump is Hearts. Player one starts the round by playing a 9-spade. Player two can:
-            1. <mark style="background-color: red">Play a lower spade, losing the hand</mark>
-            2. <mark style="background-color: green">Play a higher spade, winning the hand</mark>
-            3. <mark style="background-color: red">Play a diamond or club if they have no spades, losing the hand.</mark>
-            4. <mark style="background-color: green">Play a heart if they have no spades, winning the hand.</mark>
+            1. Play a lower spade, losing the hand
+            2. **Play a higher spade, winning the hand**
+            3. Play a diamond or club if they have no spades, losing the hand.
+            4. **Play a heart if they have no spades, winning the hand.**
