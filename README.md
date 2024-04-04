@@ -1,5 +1,5 @@
 # to_hell_and_back
-The card game "To Hell and Back" in browser
+The card game "To Hell and Back"
 
 # What decisions does AI Player need to make?
     1. Be able to recieve cards from the deck.
