@@ -1,20 +1,12 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from .models import db
+from .routes import bp  # Adjust the import path as necessary
 
-# Initialize Flask extensions, but without any Flask application instance
-db = SQLAlchemy()
-
-def create_app(config_class=Config):
+def create_app(config_filename):
     app = Flask(__name__)
+    app.config.from_pyfile(config_filename)
     
-    # Application Configuration
-    app.config.from_object(config_class)
-    
-    # Initialize extensions with the application instance
     db.init_app(app)
-    
-    # Import and register Blueprints
-    from app.routes import main
-    app.register_blueprint(main)
+    app.register_blueprint(bp, url_prefix='/api')
 
     return app

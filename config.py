@@ -1,4 +1,4 @@
 class Config:
-    SECRET_KEY = 'your_secret_key_here'
-    SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost/yourdatabase'
+    KEY = 'SECRET_KEY'
+    SQLALCHEMY_DATABASE_URI = 'DATABASE_URL'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
