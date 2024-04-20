@@ -31,3 +31,5 @@ The card game "To Hell and Back"
             2. **Play a higher spade, winning the hand**
             3. Play a diamond or club if they have no spades, losing the hand.
             4. **Play a heart if they have no spades, winning the hand.**
+
+
